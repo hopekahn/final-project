@@ -1,1 +1,61 @@
-/* FONTS /*
+/* font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #C3A698;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 45px;
+    color: #0E1C36;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Playfair Display";
+    font-weight: lighter;
+    color: #0E1C36;
+}
+
+h4 {
+    font-family: "Playfair Display";
+    text-align: center;
+    color: #0E1C36;
+}
+
+figcaption {
+    font-family: "Lato";
+    font-size: 15px;
+    color: #0E1C36;
+}
+
+p {
+    font-family: "Lato";
+    font-size: 19px;
+    color: #0E1C36;
+}
+
+figure#sandyhook {
+  float: right;
+  width: 40%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.8em;
+  padding: 0.8em;
+  font-size: 15px;
+}
+
+img#sandyhook {
+    width: 90%;
+}
+
+img#police {
+    width: 100%;
+    align-content: center;
+}
