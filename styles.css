@@ -58,6 +58,11 @@ font-family: 'Playfair Display', serif; */
      text-align: center;
      color: #0E1C36;
 }
+
+a#article {
+    color: #0E1C36;
+}
+
  a:link {
      color: #F6EDDB;
      background-color: transparent;
@@ -86,6 +91,13 @@ a:visited {
      margin-right: 0.8em;
      font-size: 15px;
 }
+
+@media (max-width: 768px) {
+  figure#sandyhook {
+    float: right;
+  }
+}
+
  img#sandyhook1 {
      width: 90%;
 }
@@ -97,13 +109,14 @@ a:visited {
      padding-bottom: 30px;
 }
  .datachart {
+     padding-left: 2em;
+     padding-right: 0;
      width: 100%;
      background-color: #ffe5cf;
-     padding: 1em;
-     border: solid 1px;
      margin-top: 50px;
      margin-bottom: 50px;
 }
+
  .poll {
      width: 100%;
      margin-top: 50px;
