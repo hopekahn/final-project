@@ -91,13 +91,11 @@ a:visited {
      margin-right: 0.8em;
      font-size: 15px;
 }
-
 @media (max-width: 768px) {
   figure#sandyhook {
-    float: right;
+    float: none;
   }
 }
-
  img#sandyhook1 {
      width: 90%;
 }
