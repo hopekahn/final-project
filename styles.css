@@ -1,19 +1,11 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif; */
 
-.header {
-     margin-bottom: 20px;
-}
- .header {
-     margin-bottom: 0;
-}
  .header img {
      width: 100%;
-     display:block;
+     display: block;
 }
- .header img {
-     width: 100%;
-}
+
  .footer {
      display: flex;
      flex-direction: column;
