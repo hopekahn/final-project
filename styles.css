@@ -5,7 +5,6 @@ font-family: 'Playfair Display', serif; */
      width: 100%;
      display: block;
 }
-
  .footer {
      display: flex;
      flex-direction: column;
@@ -18,8 +17,6 @@ font-family: 'Playfair Display', serif; */
      margin-top: 50px;
      padding-top: 20px;
      color: #0E1C36;
-}
- .footer {
      position: relative;
 }
  .fa {
@@ -90,7 +87,6 @@ font-family: 'Playfair Display', serif; */
 }
  img#police1 {
      width: 100%;
-     align-content: center;
 }
  figure#police {
      padding-top: 30px;
