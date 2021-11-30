@@ -39,6 +39,7 @@ font-family: 'Playfair Display', serif; */
 }
  body {
      background-color: #ffe5cf;
+     margin: 0;
 }
  h1 {
      font-family: "Playfair Display";
@@ -61,6 +62,9 @@ font-family: 'Playfair Display', serif; */
      color: #F6EDDB;
      background-color: transparent;
      text-decoration: none;
+}
+a:visited {
+    color: #F6EDDB;
 }
  figcaption {
      font-family: "Lato";
