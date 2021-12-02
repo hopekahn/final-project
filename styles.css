@@ -120,3 +120,13 @@ a:visited {
      margin-top: 50px;
      margin-bottom: 50px;
 }
+
+::-moz-selection {
+  color: #0E1C36;
+  background: #FDA287;
+}
+
+::selection {
+  color: #0E1C36;
+  background: #FDA287;
+}
