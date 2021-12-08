@@ -114,6 +114,7 @@ a:visited {
 @media (max-width: 768px) {
   figure#sandyhook {
     float: none;
+    width: 60%;
   }
 }
  img#sandyhook1 {
