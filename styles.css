@@ -1,147 +1,146 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif; */
- .header img {
-     width: 100%;
-     display: block;
+.header img {
+    width: 100%;
+    display: block;
 }
- .footer {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     text-align: center;
-     background-color: #0E1C36;
-     margin-top: 50px;
-     padding-top: 20px;
-     color: #0E1C36;
-     position: relative;
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #0E1C36;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #0E1C36;
+    position: relative;
 }
-
- .fa {
-     padding: 10px;
-     font-size: 30px;
-     width: 50px;
-     text-align: center;
-     text-decoration: none;
-     color: white;
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
- .fa:hover {
-     opacity: 0.7;
+.fa:hover {
+    opacity: 0.7;
 }
- .fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
-     color: #F6EDDB;
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
+    color: #F6EDDB;
 }
- .bodytext {
-     margin-left: 20%;
-     margin-right: 20%;
+.bodytext {
+    margin-left: 20%;
+    margin-right: 20%;
 }
- body {
-     background-color: #ffe5cf;
-     margin: 0;
+body {
+    background-color: #ffe5cf;
+    margin: 0;
 }
- h1 {
-     font-family: "Playfair Display";
-     font-size: 45px;
-     color: #0E1C36;
-     text-align: center;
+h1 {
+    font-family: "Playfair Display";
+    font-size: 45px;
+    color: #0E1C36;
+    text-align: center;
 }
- h3 {
-     font-family: "Playfair Display";
-     font-weight: lighter;
-     color: #0E1C36;
-     font-size: 25px;
-     margin-bottom: 0;
-}
-
- h4 {
-     font-family: "Playfair Display";
-     text-align: center;
-     color: #0E1C36;
-}
-h6{
+h3 {
     font-family: "Playfair Display";
     font-weight: lighter;
     color: #0E1C36;
-    font-size: 20px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: "Playfair Display";
+    text-align: center;
+    color: #0E1C36;
+}
+h6{
+   font-family: "Playfair Display";
+   font-weight: lighter;
+   color: #0E1C36;
+   font-size: 20px;
 }
 
 .byline {
-    margin-top: 50px;
-    margin-bottom: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
 a#article, a#timber, a#biden {
-    color: #0E1C36;
-    text-decoration: underline;
+   color: #0E1C36;
+   text-decoration: underline;
 }
 
 a#link {
-    color: #0E1C36;
-    text-decoration: underline;
+   color: #0E1C36;
+   text-decoration: underline;
 }
 
- a:link {
-     color: #F6EDDB;
-     background-color: transparent;
-     text-decoration: none;
+a:link {
+    color: #F6EDDB;
+    background-color: transparent;
+    text-decoration: none;
 }
 a:visited {
-    color: #F6EDDB;
+   color: #F6EDDB;
 }
- figcaption {
-     font-family: "Lato";
-     font-size: 15px;
-     color: #0E1C36;
+figcaption {
+    font-family: "Lato";
+    font-size: 15px;
+    color: #0E1C36;
 }
- p {
-     font-family: "Lato";
-     font-size: 19px;
-     color: #0E1C36;
+p {
+    font-family: "Lato";
+    font-size: 19px;
+    color: #0E1C36;
 }
- figure#sandyhook {
-     float: right;
-     width: 55%;
-     text-align: left;
-     font-size: smaller;
-     text-indent: 0;
-     margin-right: 0;
-     font-size: 15px;
+figure#sandyhook {
+    float: right;
+    width: 55%;
+    text-align: left;
+    font-size: smaller;
+    text-indent: 0;
+    margin-right: 0;
+    font-size: 15px;
 }
 @media (max-width: 768px) {
-  figure#sandyhook {
-    float: none;
-    width: 60%;
-  }
+ figure#sandyhook {
+   float: none;
+   width: 60%;
+ }
 }
- img#sandyhook1 {
-     width: 100%;
+img#sandyhook1 {
+    width: 100%;
 }
- img#police1 {
-     width: 100%;
+img#police1 {
+    width: 100%;
 }
- figure#police {
-     padding: 30px;
-     border: 3px solid #0E1C36;
-     background-color: #FFF4EB;
-     margin: auto;
+figure#police {
+    padding: 30px;
+    border: 3px solid #0E1C36;
+    background-color: #FFF4EB;
+    margin: auto;
 }
- .datachart {
-     background-color: #ffe5cf;
-     margin-top: 50px;
-     margin-bottom: 50px;
+.datachart {
+    background-color: #ffe5cf;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
- .poll {
-     width: 100%;
-     margin-top: 50px;
-     margin-bottom: 50px;
+.poll {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 ::-moz-selection {
-  color: #0E1C36;
-  background: #FDA287;
+ color: #0E1C36;
+ background: #FDA287;
 }
 ::selection {
-  color: #0E1C36;
-  background: #FDA287;
+ color: #0E1C36;
+ background: #FDA287;
 }
