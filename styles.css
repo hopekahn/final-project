@@ -1,6 +1,7 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif; */
 
+
  .header img {
      width: 100%;
      display: block;
@@ -19,6 +20,7 @@ font-family: 'Playfair Display', serif; */
      color: #0E1C36;
      position: relative;
 }
+
  .fa {
      padding: 10px;
      font-size: 30px;
@@ -52,14 +54,32 @@ font-family: 'Playfair Display', serif; */
      font-weight: lighter;
      color: #0E1C36;
      font-size: 25px;
+     margin-bottom: 0;
 }
+
  h4 {
      font-family: "Playfair Display";
      text-align: center;
      color: #0E1C36;
 }
+h6{
+    font-family: "Playfair Display";
+    font-weight: lighter;
+    color: #0E1C36;
+    font-size: 20px;
+}
 
-a#article {
+.byline {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a#article, a#timber, a#biden {
+    color: #0E1C36;
+    text-decoration: underline;
+}
+
+a#link {
     color: #0E1C36;
     text-decoration: underline;
 }
